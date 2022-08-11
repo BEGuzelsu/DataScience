@@ -1,0 +1,29 @@
+Model Metrics For Capstone 2 - Predicting Employment
+
+Parameter List (Coefficients Given For Logistic Regression):
+* female			-0.546102566
+* ssc_p				3.520753593
+* ssc_Central			-0.003447736
+* hsc_p				1.909204304
+* hsc_p_outlier			-0.478127539
+* hsc_Central			-0.089872024
+* hsc_s_commerce		0.099065919
+* hsc_s_science			0.318184257
+* degree_p			1.586605994
+* degree_p_outlier		0.161183425
+* degree_t_comm_mgmt		0.361819251
+* degree_t_sci_tech		-0.200969211
+* work experience		0.834986679
+* etest_p			0.124585208
+* specialisation_finance	0.487744707
+* mba_p				-0.719777369
+
+
+Model					Accurarcy	Precision		Hyper Parameters
+Logistic Regression			0.8889		0.8605			C = 1
+Random Forest Classifier		0.8148		0.8293			Max Depth = 10 ; N_Estimators = 103
+Gradient Boosting 			0.7993		Not Considered		Learning_Rate = 1 ; N_Estimators = 54
+
+Final Model Choice:
+**Logistic Regression**
+
