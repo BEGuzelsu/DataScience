@@ -1,0 +1,19 @@
+1) Model Type: Recommender System (Prediction of a Variable)
+
+2) Used Parameters:
+* Movie ID
+* User ID
+* Rating (1 to 5 with 1 being "bad" and 5 being "excellent")
+
+3) Hyper-paramter:
+* If using a similarity metric: Which type (We use Euclidean & Cosine for this project)
+
+4) Performance Metric
+* Root Mean Square Error (RMSE)
+
+5) Results (Display the Root Mean Squared Error for each model):
+* Naively guessing "3" for each movie: 1.2401
+* Unweighted average of ratings by movie: 1.0300
+* Weighted average of ratings based on Euclidean similarity: 1.0295 **
+* Weighted average of ratings based on Cosine similarity: 1.0355
+
